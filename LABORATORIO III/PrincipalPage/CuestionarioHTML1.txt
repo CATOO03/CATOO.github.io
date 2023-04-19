@@ -1,0 +1,89 @@
+1)Dar un par de ejemplos de uso de etiquetas meta.
+1- 
+<meta charset="UTF-8">
+//Se utiliza para indicar la codificación de caracteres que se está utilizando en la página web.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+//Se utiliza en HTML para controlar la forma en que un sitio web se ve en un dispositivo móvil.
+Específicamente, permite a los diseñadores web especificar la escala inicial y las dimensiones visibles de la página web en dispositivos móviles.
+
+//<meta name="google-site-verification" content="código_de_verificación">
+Se utiliza para verificar la propiedad de una página web con Google.
+
+
+
+2)Nombrar al menos 2 atributos aplicables a la etiqueta HTML.
+2- 
+<div class="clase1">Contenido del div</div>
+//Se utiliza para asignar una o más clases a un elemento HTML. 
+Las clases se utilizan para aplicar estilos CSS y para seleccionar elementos específicos en JavaScript.
+
+<div id="id1">Contenido del div</div>
+//Se utiliza para asignar un identificador único a un elemento HTML. 
+A diferencia del atributo "class", "id" no puede tener mas de un nombre igual.
+
+<img src="imagen.jpg" alt="Descripción de la imagen">
+//Se utiliza para especificar la URL de la fuente de un recurso, como una imagen, un video o un archivo de audio.
+
+
+
+3)Como se relaciona un header http con la etiqueta head de HTML?
+3-
+//La etiqueta head de HTML se utiliza para proporcionar información adicional sobre la página web que se muestra en el navegador, mientras que los encabezados HTTP se utilizan para proporcionar información adicional sobre la comunicación entre el cliente y el servidor web.
+
+
+
+4)Que es UTF8?
+4-
+//UTF-8 es un formato de codificación de caracteres que permite la representación de una amplia gama de caracteres e idiomas, lo que lo hace ampliamente utilizado en la web y en sistemas informáticos.
+
+
+
+5)Que atributo HTML sirve para aplicar estilo, a que etiqueta es aplicable?
+5-
+<div style="background-color: red;">Contenido del div</div> //Acá le damos un fondo de color rojo a la elemento div.
+//"style". Este atributo se puede aplicar a cualquier etiqueta HTML y se utiliza para definir estilos CSS que se aplicarán directamente al elemento.
+
+
+
+6)Donde se indica que un enlace debe ubicar el documento en una nueva pestaña?
+6-
+<a href="https://www.ejemplo.com" target="_blank">Enlace en una nueva pestaña</a>
+//Para indicar que un enlace debe abrirse en una nueva pestaña del navegador, se utiliza el atributo "target" con el valor "_blank". 
+El atributo "target" se utiliza para especificar dónde abrir el enlace y "_blank" indica que el enlace se abrirá en una nueva pestaña.
+
+
+
+7)Explicar cuando usarían etiquetas semánticas y con que propósito.
+7-
+//El uso de etiquetas semánticas en el código HTML ayuda a mejorar la accesibilidad, el SEO y la capacidad de mantenimiento de un sitio web, lo que puede contribuir a una mejor experiencia de usuario y un mejor rendimiento en línea.
+//Ejemplos:
+- La etiqueta "header" se utiliza para definir la sección de encabezado de una página web.
+- La etiqueta "aside" se utiliza para definir contenido relacionado, pero no esencial, que se puede colocar en el lado de la página web.
+- La etiqueta "article" se utiliza para definir una sección de contenido independiente y autocontenido en una página web, como un blog post o una noticia.
+
+
+
+8)¿Que atributos de estilo básicos aplicarían a una tabla? Explicar.
+8-
+//Acá van algunos ejemplos:
+- Text-align: Este atributo establece la alineación horizontal del contenido de la tabla
+- Border: Este atributo establece el ancho del borde de la tabla.
+- Width: Este atributo establece el ancho de la tabla.
+- Background-color: Este atributo establece el color de fondo de la tabla.
+
+
+
+9)¿Que diferencia existe entre la etiqueta body de un documento HTML y el body del
+protocolo HTTP?
+9-
+//La etiqueta <body> en un documento HTML se utiliza para definir el contenido visible de una página web, mientras que el "body" en el protocolo HTTP se refiere a la sección del mensaje HTTP que contiene los datos enviados entre el cliente y el servidor.
+
+
+
+10)¿Que atributos marcan la agrupación de celdas de una tabla?. ¿A que etiquetas se aplican?
+10-
+//Para agrupar celdas de una tabla en HTML, se utilizan los atributos colspan y rowspan.
+Estos atributos se aplican a las etiquetas <td> (celda de datos) y <th> (encabezado de tabla).
+<td colspan="2">Contenido de la celda</td> //Colspan agrupa columnas.
+<td rowspan="2">Contenido de la celda</td> //Rowspan agrupa filas.

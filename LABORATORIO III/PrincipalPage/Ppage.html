@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Hello world</title>
+		<style type="text/css">
+			body{
+				margin: 0px;
+			}
+			.pages {
+				margin-right: 55px;
+			}
+			#DivPages{
+				padding-top: 15px;
+				padding-bottom: 15px;
+				border: 1px solid grey;
+			}
+			.ReglasEtiquetas{
+				color: salmon;
+				font-size: 21px;
+			}
+			#imgOG{
+				width: 300px;
+				height: 200px;
+			}
+			#divImgCpy{
+				display: flex;
+			}
+			.imgCpy{
+				width: 150px;
+				height: 200px;
+			}
+			video{
+				width: 400px;
+				height: 230px;
+			}
+		</style>
+	</head>
+
+
+	<body>
+
+		<h1>TITULO con H1</h1>
+
+		<h2>TITULO con H2</h2>
+
+		<h3>Grupo de elementos de navegación</h3>
+		<ul>
+			<li>
+				<a href="https://www.google.com">Google</a>
+			</li>
+
+			<li>
+				<a href="https://www.yahoo.com">Yahoo</a>
+			</li>
+
+			<li>
+				<a href="https://www.youtube.com">You tube</a>
+			</li>
+		</ul>
+
+		<!--FALTA EL CONTENIDO DE LOS LINKS.-->
+		<div id="DivPages">
+			<a class="pages" href="index2.html">Otra página, misma pestaña</a>
+			<a class="pages" href="../SecondPage/index3.html" target="_blank">Otra página, nueva pestaña</a>
+			<a class="pages" href="#final">Anclaje al final de esta página</a>
+		</div>
+
+		<h1>Cuerpo principal del contenido.</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<h2>Etiquetas semanticas estructurales mas <a style="color: red">importantes</a>:</h2>
+		<ul>
+			<li>
+				HEADER
+			</li>
+
+			<li>
+				NAV
+			</li>
+
+			<li>
+				MAIN
+			</li>
+
+			<li>
+				SECTION
+			</li>
+
+			<li>
+				FOOTER
+			</li>
+
+			<li>
+				ASIDE
+			</li>
+
+			<li>
+				ARTICLE
+			</li>
+		</ul>
+
+		<h2>Algunas etiquetas semanticas y sus usos:</h2>
+		<ul>
+			<li>
+				<a class="ReglasEtiquetas">Article</a>: Esta etiqueta se utiliza para definir una sección independiente y autocontenida de contenido dentro de una página web. Puede ser un artículo de una publicación, una entrada de blog, un comentario, una receta, entre otros.
+			</li>
+
+			<li>
+				<a class="ReglasEtiquetas">Section</a>: Se utiliza para dividir una página web en secciones lógicas y separadas. Por ejemplo, podemos utilizarla para separar los capítulos de un libro o los bloques temáticos de un artículo.
+			</li>
+
+			<li>
+				<a class="ReglasEtiquetas">Aside</a>: Esta etiqueta se utiliza para definir un contenido relacionado pero que no es parte del flujo principal de la página web, como un contenido secundario, un anuncio, una nota, una barra lateral, etc.
+			</li>
+
+			<li>
+				<a class="ReglasEtiquetas">Figure</a>: Se utiliza para representar un contenido independiente, como imágenes, gráficos, diagramas, vídeos, entre otros, que pueden ser acompañados de una leyenda o un texto alternativo.
+			</li>
+		</ul>
+
+		<h3>Images section:</h3>
+		<img id="imgOG" src="img.JPG">
+
+		<h4>Distorted images section:</h4>
+		<div id="divImgCpy">
+			<img style="flex-grow: 1.5;" class="imgCpy" src="img.JPG">
+			<img style="flex-grow: 1;" class="imgCpy" src="img.JPG">
+			<img style="flex-grow: .5;" class="imgCpy" src="img.JPG">
+			<img class="imgCpy" src="img.JPG">
+		</div>
+
+		<h5>Video section:</h5>
+		<video src="video.mp4" controls></video>
+
+		<p>Datos del alumno:</p> <br>
+		<a>Nombre y Apellido: Dante Lizárraga.</a> <br>
+		<a>Legajo: 15-27709.</a> <br>
+		<a href="https://www.gmail.com">dlizarraga709@alumnos.frh.utn.edu.ar</a>
+		<br><br>
+		<p style="font-size: 25px;">RESPUESTAS DEL CUESTIONARIO:</p>
+		<a id="final" style="font-size: 17px; padding: 17px;" href="cuestionarioHTML1.txt" download>Descargar las respuestas del cuestionario.</a>
+	</body>
+</html>
